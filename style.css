@@ -123,6 +123,7 @@ nav:hover {
 #log_text{
 font-family: 'Kaushan Script', cursive;
 font-size: 30px;
+background-color: transparent;
 }
 #log_text:hover{
   color: #808080;
@@ -964,7 +965,7 @@ nav{
     {
       border: 4px solid #0d1e2d;
       border-radius: 0 0 0 32px;
-      height: 300px;
+      height: auto;
       width: 250px;
       background-color: #243748;
       position:relative;
@@ -976,7 +977,7 @@ nav{
     {
       border: 4px solid #0d1e2d;
       border-radius: 0 0 0 32px;
-      height: 300px;
+      height: auto;
       width: 250px;
       background-color: #243748;
       position:relative;
@@ -1378,7 +1379,7 @@ nav{
         {
           width: 100px;
           margin-top: 150px;
-          margin-left: auto;
+           margin-left: 30px; 
           margin-right: auto;
         }
         .title_text h1
@@ -1948,3 +1949,9 @@ margin-left: 10px;
   font-family: Special Elite;
 }
 
+.project_icon
+{
+  display: flex;
+  justify-content: space-between;
+  background-color: #243748;
+}
